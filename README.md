@@ -8,16 +8,25 @@ The primary aim is to map overbank inundation during the 2025 monsoon period, qu
 ---
 
 ## 🚀 Core Results
-* **Overbank Inundation:** Successfully mapped **129.62 ha** of landward overbank inundation after excluding the pre-existing active river channel.
+
+* **Overbank Inundation:** Successfully mapped **129.62 ha** of landward overbank inundation after excluding the pre-existing active river channel. 👇🏻
+
 <img width="3238" height="3858" alt="Lar_Flood_Inundation_SAR1" src="https://github.com/user-attachments/assets/16cfa039-03ad-4636-a9b2-f5cb13647dfc" />
+
 * **Agricultural Exposure:** Agriculture/Crops form the dominant exposed land cover, accounting for **80.74 ha (62.29%)** of the flooded area.
 * **Hydrological Consistency:** Analysis confirms flooding is concentrated on lower elevations, with higher Topographic Wetness Index (TWI) and Specific Catchment Area (SCA).
-* **Validation:** The resulting inundated area closely aligns in magnitude with the 125.76 ha reported by the Flood Management Information System Centre (FMISC) for 19 August 2025.
+
+<img width="4515" height="5546" alt="Flood Susceptibilty2" src="https://github.com/user-attachments/assets/152085e6-ead7-4060-9139-28c4fef89412" />
+
+
+* **Validation:** The resulting inundated area closely aligns in magnitude with the 125.76 ha reported by the Flood Management Information System Centre (FMISC) for 19 August 2025. Official Image attached below. 👇🏻
+
 <img width="4681" height="3311" alt="Deoria" src="https://github.com/user-attachments/assets/37226aa4-f7ce-45c4-ad6a-3e363887dda2" />
 
 ---
 
 ## 🛠️ Data & Tech Stack
+
 * **Terrain Source:** Copernicus DEM GLO-30 (30 m), reprojected, clipped, and depression-filled.
 * **SAR Observations:** Sentinel-1A IW GRDH (dual VV+VH) observations dated 29 July and 31 August 2025.
 * **Land Cover:** ESRI 2025 LULC (10 m categorical raster).
@@ -28,6 +37,7 @@ The primary aim is to map overbank inundation during the 2025 monsoon period, qu
 ---
 
 ## 🧠 Methodology Highlights
+
 1. **Hydrological Modeling:** Developed elevation, slope, TWI, and SCA surfaces directly from the hydrologically conditioned Copernicus DEM to avoid spatial discontinuities.
 2. **Automated Otsu Thresholding:** Implemented a custom Python script using GDAL to compute automated VV dB thresholds (-12.97 dB for July and -14.22 dB for August) without manual histogram picking.
 3. **Temporal Differencing & Filtering:** Candidate new water was isolated by differencing the August and July masks, followed by a 100-pixel connected-component sieve filter to remove isolated patches.
@@ -36,6 +46,7 @@ The primary aim is to map overbank inundation during the 2025 monsoon period, qu
 ---
 
 ## 📁 Repository Structure
+
 * `docs/` - Contains the primary final analytical and cartographic documentation (e.g., `Lar_Block_2025.pdf`).
 * `scripts/` - Python scripts for automated Otsu thresholding implemented via the QGIS Python console.
 * `maps/` - Exported high-resolution maps from the project's cartographic portfolio (e.g., Copernicus-Derived Slope, Final Overbank Flood, Susceptibility Maps).
@@ -44,4 +55,5 @@ The primary aim is to map overbank inundation during the 2025 monsoon period, qu
 ---
 
 ## ⚙️ How to Use
+
 The automated Otsu thresholding code provided in the `scripts/` directory is designed to be executed within the **QGIS Python Console**. It utilizes the `qgis.core` and `osgeo.gdal` libraries to read loaded VV dB layers, handles NoData/outliers using the 0.5-99.5 percentile range, and dynamically calculates threshold values.

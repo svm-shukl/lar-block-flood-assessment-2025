@@ -9,7 +9,7 @@ The primary aim is to map overbank inundation during the 2025 monsoon period, qu
 
 ## 📄 Full Project Report
 A detailed cartographic portfolio and analytical report is available in the repository. 
-👉 **[Click here to view or download the Full Project Documentation (Lar_Block_2025.pdf)](docs/Lar_Block_2025_Flood_Assessment_Report.pdf)**
+👉 **[Click here to view or download the Full Project Documentation](docs/Lar_Block_2025_Flood_Assessment_Report.pdf)**
 
 ## 🚀 Core Results
 

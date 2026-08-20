@@ -47,6 +47,9 @@ A detailed cartographic portfolio and analytical report is available in the repo
 3. **Temporal Differencing & Filtering:** Candidate new water was isolated by differencing the August and July masks, followed by a 100-pixel connected-component sieve filter to remove isolated patches.
 4. **Channel Exclusion:** A digitized polygon representing the pre-existing active river channel was masked out to ensure the analysis strictly targeted overbank flooding on land.
 
+A detailed methodology & workflow is available in the repos directory methodology. 
+👉 **[Click here to view the methodology and workflow followed.](methodology/workflow & methodology.md)**
+
 ---
 
 ## 📁 Repository Structure
@@ -54,6 +57,7 @@ A detailed cartographic portfolio and analytical report is available in the repo
 * `docs/` - Contains the primary final analytical and cartographic documentation (e.g., `Lar_Block_2025.pdf`).
 * `scripts/` - Python scripts for automated Otsu thresholding implemented via the QGIS Python console.
 * `maps/` - Exported high-resolution maps from the project's cartographic portfolio (e.g., Copernicus-Derived Slope, Final Overbank Flood, Susceptibility Maps).
+* `methodology/` - Complete workflow and methodology for the project.
 * `workflows/` - ESA SNAP graph builder sequences for repeatable SAR preprocessing steps.
 
 ---

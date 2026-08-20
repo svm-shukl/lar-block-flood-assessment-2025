@@ -48,7 +48,7 @@ A detailed cartographic portfolio and analytical report is available in the repo
 4. **Channel Exclusion:** A digitized polygon representing the pre-existing active river channel was masked out to ensure the analysis strictly targeted overbank flooding on land.
 
 A detailed methodology & workflow is available in the repos directory methodology. 
-👉 **[Click here to view the methodology and workflow followed.](methodology/workflow & methodology.md)**
+👉 **[Click here to view the methodology and workflow followed.](methodology/workflow_&_methodology.md)**
 
 ---
 

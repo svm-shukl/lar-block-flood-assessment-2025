@@ -9,9 +9,13 @@ The primary aim is to map overbank inundation during the 2025 monsoon period, qu
 
 ## 🚀 Core Results
 * **Overbank Inundation:** Successfully mapped **129.62 ha** of landward overbank inundation after excluding the pre-existing active river channel[cite: 1].
+<img width="3238" height="3858" alt="Lar_Flood_Inundation_SAR1" src="https://github.com/user-attachments/assets/16cfa039-03ad-4636-a9b2-f5cb13647dfc" />
 * **Agricultural Exposure:** Agriculture/Crops form the dominant exposed land cover, accounting for **80.74 ha (62.29%)** of the flooded area[cite: 1].
 * **Hydrological Consistency:** Analysis confirms flooding is concentrated on lower elevations, with higher Topographic Wetness Index (TWI) and Specific Catchment Area (SCA)[cite: 1].
 * **Validation:** The resulting inundated area closely aligns in magnitude with the 125.76 ha reported by the Flood Management Information System Centre (FMISC) for 19 August 2025[cite: 1].
+<img width="4681" height="3311" alt="Deoria" src="https://github.com/user-attachments/assets/37226aa4-f7ce-45c4-ad6a-3e363887dda2" />
+
+
 
 ---
 
